@@ -162,9 +162,11 @@ body.dark {
 
 .card__image-container {
   
+    
     min-width: 320px;
     border-radius: var(--border-radius);
     overflow: hidden;
+   
    
 }
 
@@ -190,6 +192,7 @@ body.dark {
 .card__text {
     font-size: 0.9rem;
     line-height: 1.6;
+    text-align: justify;
 
 }
 
@@ -762,25 +765,31 @@ body.dark {
 
 
 .modal__container{
-    margin: auto;
-    width: 90%;
-    max-width: 500px;
-    max-height: 90%;
-    background-color: #fff;
-    border-radius: 6px;
-    padding: 3em 2.5em;
-    display: grid;
-    gap: 3px;
-    place-items: center;
-    grid-auto-columns: 100%;
-    transform: var(--transform);
-    transition:var(--transition);
+
+}
+
+.modal__title{
+    font-size: 18px;
+    color: black;
+    opacity:0.9;
+    text-align: center;
+}
+
+.modal__paragraph{
+    font-size: 12px;
+    color: black;
+    opacity:0.8;
+}
+
+.modal__img{
+    width: 80%;
+    max-width: 180px;
 }
 
 .modal__close{
     
     margin-right: 300px;
-    margin-top: -100px;
+    margin-top: -200px;
     color: #fff;
     padding: 20px 20px;
     background-color: var(--primary-color);
